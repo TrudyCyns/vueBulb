@@ -17,7 +17,7 @@
     <div class="container" id="app">
       <img v-if="isOn" src="./images/bulb-on.png" alt="Bulb On" />
       <img v-else src="./images/bulb-off.png" alt="Bulb Off" />
-      <button v-on:click="toggleBulb(isOn)">Light Switch</button>
+      <button class="btn btn-warning" v-on:click="toggleBulb(isOn)">Light Switch</button>
 
       <script src="https://unpkg.com/vue@3"></script>
       <script src="scripts.js"></script>
